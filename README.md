@@ -30,13 +30,14 @@ The parsers and sync queues are tested — 108 tests in FitSec, 23 in the Queima
 
 ### Stack
 
-**Front-end** React · Next.js · Angular · TypeScript · TailwindCSS · Vite
-**Back-end** NestJS · Node.js · Python · Django · REST APIs
-**Data** PostgreSQL · Supabase · Prisma
-**AI & Automation** LangChain · LangGraph · RAG · n8n · MCP · LLM orchestration
-**Ops** GitHub Actions · Turborepo · Vercel · Vitest · Jest
+- **Front-end** — React · Next.js · Angular · TypeScript · TailwindCSS · Vite
+- **Back-end** — NestJS · Node.js · Python · Django · REST APIs
+- **Data** — PostgreSQL · Supabase · Prisma
+- **AI & Automation** — LangChain · LangGraph · RAG · n8n · MCP · LLM orchestration
+- **Ops** — GitHub Actions · Turborepo · Vercel · Vitest · Jest
 
 ---
 
 📍 Manaus, Amazonas — open to remote
+
 🔗 [Portfolio](https://vergueiroportfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/isaquevergueiro/) · secvergueiro@gmail.com
