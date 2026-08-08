@@ -24,7 +24,7 @@ Every one of them is deployed and clickable. I'd rather you open the demo than r
 
 I document decisions, not just code — each README has a section on what I chose, what I rejected, and why. When something doesn't work, it goes in the README as a limitation instead of being sold as a feature: TranskriptorSec's speaker diarization scored 57.2% against a 50% baseline, and it says so.
 
-The parsers and sync queues are tested — 108 tests in FitSec, 23 in the Queimadas parser, including one that fails on purpose if INPE changes its CSV header.
+The parsers and sync queues are tested — 104 tests in FitSec, 57 in Queimadas (22 on the CSV parser alone), plus a contract test that fails on purpose if INPE changes its header.
 
 ---
 
