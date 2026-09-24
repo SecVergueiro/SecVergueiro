@@ -17,7 +17,7 @@ Construo aplicações que conectam interfaces, APIs, dados e processos reais de 
 | [TranskriptorSec](https://github.com/SecVergueiro/transkriptorsec) | Transcrição com modelo de IA executado no navegador, preservando o áudio no dispositivo. | Next.js, TypeScript, WebGPU, Web Workers |
 | [SMT Pulse](https://github.com/SecVergueiro/smt-pulse) | MVP de rastreabilidade e indicadores de produção para linha SMT, com registros persistidos e cálculo de OEE. | Angular, NestJS, PostgreSQL, Prisma |
 | [Queimadas AM](https://github.com/SecVergueiro/queimadas-am-sec) | Painel de dados abertos do INPE com tratamento explícito de dados ausentes e testes do parser. | Angular, TypeScript, Vitest |
-| [FitSec](https://github.com/SecVergueiro/fitsec) | PWA de treinos com armazenamento local e fila de sincronização. **Projeto em evolução:** o uso offline completo ainda está em validação. | Next.js, Supabase, IndexedDB, Dexie |
+| [BaaS Lera Box](https://github.com/SecVergueiro/desafio-tecnico-vba-baas) | Desafio técnico de plataforma financeira com checkout, Pix, carteira e proteção contra transações duplicadas. | React, NestJS, MySQL, Docker |
 
 Cada repositório documenta o problema, as decisões técnicas e o estado atual da solução. Os projetos públicos demonstram abordagens diferentes; não representam sistemas internos da empresa onde trabalho.
 
@@ -42,46 +42,4 @@ Projetos compartilhados são apresentados como colaboração. Não publico códi
 
 **Formação:** Tecnólogo em Análise e Desenvolvimento de Sistemas — Centro Universitário Fametro, concluído em junho de 2026.
 
-Se algum projeto chamou sua atenção, vale abrir o repositório: o README de cada um explica o que funciona, o que está em evolução e por quê.# Isaque Vergueiro
-
-**Full-Stack Developer** — React, Next.js, TypeScript, NestJS, Python.
-I build corporate systems and put AI agents to work inside real business processes.
-
-Currently a development intern at **AIONS** (Manaus, AM), where I've shipped a whistleblower channel with TOTP + facial validation, a medical-report platform with digital signature, and an EPI lifecycle tracker — plus the n8n automations that connect them to the company's HR system.
-
----
-
-### What I'm working on
-
-| Project | What it is | Stack |
-|---|---|---|
-| **[SisVac 2.0](https://github.com/SecVergueiro/sisvac-cecon)** | Vacation & leave management for the public sector, implementing Amazonas State Law 1.762. Hierarchical RBAC, native PDF, daily-reset live demo. | Next.js · NestJS · Supabase · Turborepo · GitHub Actions |
-| **[TranskriptorSec](https://github.com/SecVergueiro/transkriptorsec)** | Whisper transcription running **inside the browser** via WebGPU — audio never leaves the user's machine, zero API cost. | Next.js · WebGPU · Web Workers · Prisma |
-| **[Queimadas AM](https://github.com/SecVergueiro/queimadas-am-sec)** | Wildfire hotspot dashboard on INPE open data. No back-end, no API key — the hard part is the data, which arrives dirty and changes without notice. | Angular 22 · Signals · Zoneless · Vitest |
-| **[FitSec](https://github.com/SecVergueiro/fitsec)** | Offline-first workout PWA: optimistic writes, sync queue, and rest timers handed off to the iPhone's native timer. | Next.js · Supabase · IndexedDB · Service Worker |
-
-Every one of them is deployed and clickable. I'd rather you open the demo than read my CV.
-
----
-
-### How I work
-
-I document decisions, not just code — each README has a section on what I chose, what I rejected, and why. When something doesn't work, it goes in the README as a limitation instead of being sold as a feature: TranskriptorSec's speaker diarization scored 57.2% against a 50% baseline, and it says so.
-
-The parsers and sync queues are tested — 104 tests in FitSec, 57 in Queimadas (22 on the CSV parser alone), plus a contract test that fails on purpose if INPE changes its header.
-
----
-
-### Stack
-
-- **Front-end** — React · Next.js · Angular · TypeScript · TailwindCSS · Vite
-- **Back-end** — NestJS · Node.js · Python · Django · REST APIs
-- **Data** — PostgreSQL · Supabase · Prisma
-- **AI & Automation** — LangChain · LangGraph · RAG · n8n · MCP · LLM orchestration
-- **Ops** — GitHub Actions · Turborepo · Vercel · Vitest · Jest
-
----
-
-📍 Manaus, Amazonas — open to remote
-
-🔗 [Portfolio](https://vergueiroportfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/isaquevergueiro/) · secvergueiro@gmail.com
+Se algum projeto chamou sua atenção, vale abrir o repositório: o README de cada um explica o que funciona, o que está em evolução e por quê.
